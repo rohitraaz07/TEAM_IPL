@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.parallax-container {
+  min-height: 100vh;
+  background-image: url("https://images.indianexpress.com/2025/02/IPL-trophy-1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
