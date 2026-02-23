@@ -108,7 +108,7 @@ const Home = () => {
 
         {/* Selected Team Details */}
         {selectedTeam && (
-          <div className="mt-3 p-6 border rounded-lg shadow-lg bg-gray-100 mb-32">
+          <div className="mt-3 p-6 border rounded-lg shadow-lg bg-gray-100 mb-36">
             <h3 className="text-2xl font-bold mb-4 text-center">
               {selectedTeam.name}
             </h3>
